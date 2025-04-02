@@ -1,0 +1,152 @@
+header {
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header_left {
+    width: 200px;
+    height: 100px;
+    background-color: #EAE9EE;
+}
+
+.header_right {
+    width: 1080px;
+    height: 100px;
+    background-color: #C2C3D6;
+}
+
+.sc1 {
+    width: 1280px;
+    height: 440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sc1_left {
+    width: 250px;
+    height: 440px;
+    background-color: #E1E1F5;
+}
+
+.sc1_right {
+    width: 1030px;
+    height: 440px;
+}
+
+.sc1_right>.top,
+.sc1_right>.bottom {
+    width: 1030px;
+    height: 220px;
+    display: flex;
+}
+
+.sc1_right>.top>.top_left {
+    width: 730px;
+    height: 220px;
+    background-color: #C0C0FB;
+}
+
+.sc1_right>.top>.top_right {
+    width: 300px;
+    height: 220px;
+    background-color: #7878D4;
+}
+
+.sc1_right>.bottom>.bottom_left {
+    width: 280px;
+    height: 220px;
+    background-color: #9999EF;
+}
+
+.sc1_right>.bottom>.bottom_right {
+    width: 750px;
+    height: 220px;
+    background-color: #CACBE4;
+}
+
+.sc2 {
+    width: 1280px;
+    height: 440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sc2_left {
+    width: 530px;
+    height: 440px;
+    display: flex;
+}
+
+.sc2_left>.rec1 {
+    width: 177px;
+    height: 440px;
+    background-color: #7878D4;
+}
+
+.sc2_left>.rec2 {
+    width: 176px;
+    height: 440px;
+    background-color: #353AC2;
+}
+
+.sc2_left>.rec3 {
+    width: 177px;
+    height: 440px;
+    background-color: #0D1163;
+}
+
+.sc2_right {
+    width: 750px;
+    height: 440px;
+}
+
+.sc2_right>.top {
+    width: 750px;
+    height: 242px;
+    background-color: #666CEE;
+}
+
+.sc2_right>.bottom {
+    width: 750px;
+    height: 198px;
+    display: flex;
+}
+
+.sc2_right>.bottom>.left {
+    width: 372px;
+    height: 198px;
+    background-color: #7D7FA7;
+}
+
+.sc2_right>.bottom>.right {
+    width: 378px;
+    height: 198px;
+    background-color: #4C4F8C;
+}
+
+footer {
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer_left {
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
+
+.footer_middle {
+    width: 880px;
+    height: 100px;
+    background-color: #6469CD;
+}
+
+.footer_right {
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
