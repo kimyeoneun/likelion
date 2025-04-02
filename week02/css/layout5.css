@@ -1,0 +1,78 @@
+#wrap {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+}
+
+header>div, main>div *{
+    background-color: black;
+}
+
+.h_rec1,
+.h_rec2 {
+    width: 100px;
+    height: 100px;
+}
+
+.h_rec2 {
+    position: relative;
+    left: 200px;
+}
+
+.h_rec3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 800px;
+}
+
+.m_rec1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+
+.m_rec2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 600px;
+    top: -200px;
+}
+
+.m_rec3{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
+
+.m_rec4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+
+.m_rec5{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -300px;
+    left: 600px;
+}
+
+.f_rec{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -300px;
+    left: 800px;
+}

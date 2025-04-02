@@ -1,0 +1,58 @@
+#wrap {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+}
+
+.h_rec1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.h_rec2 {
+    width: 200px;
+    height: 200px;
+    left: 950px;
+    position: relative;
+    background-color: black;
+}
+
+.m_rec1 {
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: 100px;
+    position: relative;
+    background-color: black;
+}
+
+.m_rec2 {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    left: 300px;
+    position: relative;
+    background-color: black;
+}
+
+.m_rec3{
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: 600px;
+    position: relative;
+    background-color: black;
+}
+
+.f_rec{
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: 800px;
+    position: relative;
+    background-color: black;
+}
