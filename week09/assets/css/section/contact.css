@@ -1,0 +1,86 @@
+#wrap {
+    background-color: #ebebeb;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 20px;
+    width: 414px;
+    margin-top: -200px;
+    margin-bottom: 60px;
+}
+
+header img {
+    width: 15px;
+    height: 17px;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.edit {
+    position: absolute;
+}
+
+.edit img {
+    width: 25px;
+    height: 25px;
+}
+
+.info h5 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.info h1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info1 div,
+.info2 div,
+.info3 div,
+.info4 div,
+.info5 div,
+.info6 div {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+
+.info1 img,
+.info2 img,
+.info3 img,
+.info4 img,
+.info5 img,
+.info6 img {
+    width: 40px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.info img {
+    margin-bottom: 15px;
+}

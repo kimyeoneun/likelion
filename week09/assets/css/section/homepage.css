@@ -1,0 +1,183 @@
+#wrap {
+    background-color: #ebebeb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: -100px;
+}
+
+header img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.welcome h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.total {
+    display: flex;
+    background: linear-gradient(to right, #31A078, #31A05F);
+    width: 350px;
+    height: 120px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.text {
+    flex-direction: column;
+    color: #fff;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.text p {
+    font-size: 12px;
+}
+
+.text h2{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.invest {
+    background-color: #fff;
+    color: #31A078;
+    width: 125px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-top: 55px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.invest:hover{
+    color: #474747;
+}
+
+.best{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.best h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.best p{
+    color: #FE555D;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.level{
+    display: flex;
+    gap: 20px;
+}
+
+.gold img, .sliver img {
+    width: 120px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.platinum img{
+    width: 70px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.investment_guide h2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.basic, .how_much{
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic h1, .how_much h1{
+    font-weight: 500;
+    font-size: 17px;
+    color: #474747;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.basic p, .how_much p{
+    color: #4A4A4A;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.img1 {
+    width: 60px;
+    height: 60px;
+}
+
+.img2 {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    position: absolute;
+    bottom: 74px;
+} 
+
+footer p{
+    font-size: 12px;
+    color: #999999;
+}
+
+.home, .product a, .transaction a, .account a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.home img {
+    width: 24px;
+    height: 24px;
+}
+
+.product img {
+    width: 24px;
+    height: 24px;
+}
+
+.transaction img {
+    width: 24px;
+    height: 24px;
+}
+
+.account img {
+    width: 24px;
+    height: 24px;
+}

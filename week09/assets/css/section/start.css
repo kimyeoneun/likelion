@@ -1,0 +1,43 @@
+.asset {
+    width: 280px;
+    height: 250px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #4F4F4F;
+    font-size: 13px;
+    text-align: center;
+}
+
+.create {
+    background-color: #31A062;
+    color: #fff;
+    width: 300px;
+    height: 55px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.create:hover {
+    color: #4F4F4F;
+}
+
+.login {
+    background-color: #fff;
+    color: #31A062;
+    width: 300px;
+    height: 55px;
+}
